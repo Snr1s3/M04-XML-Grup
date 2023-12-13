@@ -1,1 +1,12 @@
-<!ELEMENT noodelsMaker
+<!ELEMENT noodelsMaker(clientes)>
+<!ELEMENT clientes (cliente)>
+<!ELEMENT cliente (nombre, telefono, email, compras)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT compras (compra)>
+<!ELEMENT compra (producto, cantidad, fecha)>
+<!ELEMENT producto (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+```
