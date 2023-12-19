@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE noodelsMaker SYSTEM "clints.dtd">
+<!DOCTYPE noodelsMaker SYSTEM "clients.dtd">
 <noodelsMaker>
     <clientes>
         <cliente id="U001" category="consumidor">
