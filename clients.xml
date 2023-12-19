@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE noodelsMaker SYSTEM "clints.dtd">
+<noodelsMaker>
+    <clientes>
+        <cliente id="U001" category="consumidor">
+            <nombre lang="es">Jasmin Ortega</nombre>
+            <telefono>989 987 623</telefono>
+            <email>jasminortega@gmail.com</email>
+            <compras>
+                <compra id="C001">
+                    <producto ref="P001">Shoyu</producto>
+                    <cantidad>1</cantidad>
+                    <fecha>2023-01-15</fecha>
+                </compra>
+            </compras>
+
+        </cliente>
+    </clientes>
+    <tienda>
+        <alimento category="salsa">
+            <title lang="es">Salsa soja</title>
+            <precio>2 €</precio>
+        </alimento>
+        <alimento category="salsa" id="P001">
+            <title lang="es">Shoyu</title>
+            <precio>2,75 €</precio>
+        </alimento>
+        <alimento category="fideos">
+            <title lang="es">Fideos picantes</title>
+            <precio>2 €</precio>
+        </alimento>
+        <alimento category="fideos" id="P006">
+            <title lang="es">Fideos sabor pollo</title>
+            <precio>2 €</precio>
+        </alimento>
+        <alimento category="especie">
+            <title lang="es">Curry</title>
+            <precio>4 €</precio>
+        </alimento>
+        <alimento category="especie" id="P011">
+            <title lang="es">Miso</title>
+            <precio>3 €</precio>
+        </alimento>
+        <alimento category="sopas">
+            <title lang="es">Sopa sabor pollo</title>
+            <precio>4 €</precio>
+        </alimento>
+        <alimento category="sopas" id="P019">
+            <title lang="es">Sopa sabor verduras</title>
+            <precio>3,50 €</precio>
+        </alimento>
+    </tienda>
+</noodelsMaker>

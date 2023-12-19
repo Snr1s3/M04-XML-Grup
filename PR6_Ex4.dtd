@@ -1,4 +1,4 @@
-<!ELEMENT esdeveniments(esdeveniment)>
+<!ELEMENT esdeveniments (esdeveniment)>
 <!ELEMENT esdeveniment (grup, lloc, data, entrada)>
 <!ELEMENT grup (#PCDATA)>
 <!ELEMENT lloc (#PCDATA)>
